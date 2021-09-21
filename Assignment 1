@@ -2,7 +2,13 @@
 <HTML>
 <head>
 <body>
+<p>
+This is not good
+</p>
+
 <IMG SRC= "moon pic. jpg" alt = "moon pic"/>
-<\body>
-<\head>
-<\html>
+
+
+</body>
+</head>
+</html>
