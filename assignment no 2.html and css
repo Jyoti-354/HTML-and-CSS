@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>html and css</title>
+    <style>
+    
+   * { 
+       margin:0px;
+       padding:0px;
+     }
+    
+      
+      /*selectors*/
+      one{
+          height: 100px;
+          width: 100%;
+          background-color: red;
+         }
+
+     one_child1{
+                height: 100px;
+                width: 50%;
+                background-color:blue;
+               }
+               
+     one_child2{
+                height:100px;
+                width:30%;
+                background-color:black;
+               }
+               
+     one_child3{
+                 height:100px;
+                 width:10%;
+                 background-color:pink;
+               }       
+    
+  
+   two{
+       height:100px;
+       width:100%;
+       background-color:red;
+      }
+  
+  two_child1{
+             height:100px;
+             width:50%;
+             background-color:blue;
+            }
+  
+  two_child2{
+             height:100px;
+             width:25%;
+             background-color:green;
+            }        
+     
+  three{
+        height:200px;
+        width:100%;
+        background-color:red;
+       }
+  
+  
+   </style>
+ 
+</head>
+
+<body>
+  
+ <p>
+ create three sections<br>
+ 1. section will have 3 child elements<br>
+ 2. section will have 2 child elements<br>
+ 3. section will have 2 Images
+ </p>
+ 
+ <section class="one"> </section>
+ <section class="one_child1"> </section>
+ <section class="one_child2"> </section>
+ <section class="one_child3"> </section>
+ 
+ 
+ <section class="two"> </section>
+ <section class="two_child1"> </section>
+ <section class="two_child2"> </section>
+ 
+ 
+  
+ <section class="three"> 
+ <img src="/storage/emulated/0/Download/hills-station-india.jpg" alt = "hill station pic">     
+ <img src= " /storage/emulated/0/Download/moon pic.jpg" alt = "moon pic">
+ </section>
+ 
+
+</body>
+
+</html>
